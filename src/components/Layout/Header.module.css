@@ -1,29 +1,46 @@
+@font-face {
+  font-family: "amaticscregular";
+  src: url('../../assets/fonts/AmaticSC-Bold.ttf');
+  
+}
 .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 5rem;
-    background-color: #a9a878;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 10%;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
-    z-index: 10;
-  }
-  
-  .main-image {
-    width: 100%;
-    height: 25rem;
-    z-index: 0;
-    overflow: hidden;
-  }
-  
-  .main-image img {
-    width: 110%;
-    height: 100%;
-    object-fit: cover;
-    transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
-  }
+  font-family: "amaticscregular";
+  font-size: 20px;
+  text-align: center;
+  position: fixed;
+  top: 4%;
+  /* left: 50%; */
+  width: 100%;
+  height: 2.5rem;
+  /* transform: translateX(-50%); */
+  /* margin-left: auto;
+    margin-right: auto; */
+  background-color: #826044;
+  color: #FBB91A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  padding-left: 17%;
+  box-shadow: 0 16px 18px rgba(0, 0, 0, 0.45);
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.main-image {
+  width: 100%;
+  height: 40rem;
+  /* z-index: 0; */
+  overflow: hidden;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
+
+}
+
+.main-image img {
+  width: 110%;
+  height: 100%;
+  object-fit: cover;
+  transform: rotateZ(-5deg) translateY(-4rem) translateX(-3rem);
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
+
+}

@@ -1,20 +1,30 @@
-.form {
+
+@font-face {
+  font-family: "amaticscregular";
+  src: url('../../../assets/fonts/AmaticSC-Regular.ttf');
+  
+}.form {
     text-align: right;
   }
   
   .form button {
-    font: inherit;
+    font-family: "amaticscregular";
+    font-size: 22px;
     cursor: pointer;
-    background-color: #8a2b06;
-    border: 1px solid #8a2b06;
+    background-color: #5F7D25;
+    border: 1px solid #5F7D25;
     color: white;
     padding: 0.25rem 2rem;
     border-radius: 20px;
-    font-weight: bold;
+    /* font-weight: bold; */
   }
   
   .form button:hover,
   .form button:active {
     background-color: #641e03;
     border-color: #641e03;
+  }
+
+  .icon {
+        margin-right: 0.1rem;
   }

@@ -1,6 +1,7 @@
 import Input from '../../UI/Input';
-
+import CartIcon from '../../Cart/CartIcon';
 import classes from './MealItemForm.module.css';
+
 
 const MealItemForm = props => {
     return (
@@ -8,7 +9,7 @@ const MealItemForm = props => {
             <Input
                 label='Amount'
                 input={{
-                    id: 'amount',
+                    id: 'amount_' + props.id,
                     type: 'number',
                     min: '1',
                     max: '5',
@@ -16,7 +17,11 @@ const MealItemForm = props => {
                     defaultValue: '1'
                 }}
             />
-            <button>+ Add</button>
+            <button>+ Add
+            <span className={classes.icon}>
+                <CartIcon />
+            </span>
+            </button>
         </form>
     )
 };

@@ -1,18 +1,30 @@
+@font-face {
+  font-family: "amaticscregular";
+  src: url('../../assets/fonts/AmaticSC-Regular.ttf');
+  
+}
+
 .summary {
     text-align: center;
-    max-width: 45rem;
+    max-width: 57rem;
     width: 90%;
     margin: auto;
     margin-top: -10rem;
     position: relative;
-    background-color: #383838;
-    color: white;
-    border-radius: 14px;
+    background-color: rgba(130, 96, 68, 0.45);
+    border-radius: 24px;
     padding: 1rem;
-    box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+    box-shadow: 4 0px 12px 10px rgba(0, 0, 0, 0.35);
+    text-shadow: 55px;
+    
   }
   
-  .summary h2 {
-    font-size: 2rem;
+  .header {
+    font-size: 5rem;
+    font-family: "amaticscregular";
     margin-top: 0;
+    z-index: 1;
+    color: #5F7D25;
+    /* opacity: 1; */
   }
+
