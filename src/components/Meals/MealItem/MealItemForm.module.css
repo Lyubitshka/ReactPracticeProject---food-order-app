@@ -11,18 +11,19 @@
     font-family: "amaticscregular";
     font-size: 22px;
     cursor: pointer;
-    background-color: #C7934B;
-    border: 1px solid #C7934B;
-    color: white;
+    background-color: #FD9E16;
+    border: 1px solid #FD9E16;
+    color: #2F4858;
     padding: 0.25rem 2rem;
     border-radius: 20px;
-    /* font-weight: bold; */
+    font-weight: bold;
   }
   
   .form button:hover,
   .form button:active {
-    background-color: #641e03;
-    border-color: #641e03;
+    background-color: #2F4858;
+    border-color: #2F4858;
+    color: #FD9E16;
   }
 
   .icon {
