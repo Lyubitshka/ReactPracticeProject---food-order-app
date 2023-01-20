@@ -1,5 +1,5 @@
 import React from "react";
-import classes from './MealsDescription.module.css'
+import classes from './MealsDescription.module.css';
 
 
 const MealsDescription = () => {
